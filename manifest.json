@@ -1,0 +1,14 @@
+{
+  "name": "Select And Save",
+  "description": "Select any text from blog or documents then save it as QnA",
+  "version": "1.0",
+  "permissions": ["storage", "scripting", "activeTab", "sidePanel"],
+  "action": {
+    "default_title": "Select And Save",
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "manifest_version": 3
+}
